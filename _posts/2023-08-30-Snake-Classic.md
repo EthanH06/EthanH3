@@ -1,9 +1,9 @@
 ---
-toc: false
+toc: true
 comments: false
 layout: post
-title: Classic Snake Game
-description: A pretty advanced use of JavaScript building classic snake game using menu controls, key events, snake simulation and timers.
+title: Snake Classic
+description: Classical Snake Game
 type: tangibles
 courses: { compsci: {week: 2} }
 ---
@@ -16,12 +16,12 @@ courses: { compsci: {week: 2} }
         margin-left: auto;
         margin-right: auto;
     }
-
+/*creates board and where the game is displayed*/ 
     canvas{
         display: none;
         border-style: solid;
         border-width: 10px;
-        border-color: #FFFFFF;
+        border-color: #000000;
     }
     canvas:focus{
         outline: none;
@@ -72,7 +72,7 @@ courses: { compsci: {week: 2} }
     }
 </style>
 
-
+<!--Creates the text and descriptions that are used within the game-->
 <div class="container">
     <header class="pb-3 mb-4 border-bottom border-primary text-dark">
         <p class="fs-4">Snake score: <span id="score_value">0</span></p>
@@ -367,8 +367,8 @@ courses: { compsci: {week: 2} }
         /////////////////////////////////////////////////////////////
         let setWall = function(wall_value){
             wall = wall_value;
-            if(wall === 0){screen_snake.style.borderColor = "#606060";}
-            if(wall === 1){screen_snake.style.borderColor = "#FFFFFF";}
+            if(wall === 0){screen_snake.style.borderColor = "#FFFFFF";}
+            if(wall === 1){screen_snake.style.borderColor = "#000000";}
         }
     })();
 </script>
