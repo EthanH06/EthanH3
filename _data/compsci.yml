@@ -9,3 +9,8 @@ Unit2:
   description: Learn (JavaScript|Python|Java).  Start Agile development process.
   start: 4
   end: 7
+Unit 3:
+  title: Lessons
+  description: Learn from Other Students
+  start: 8
+  end: 20

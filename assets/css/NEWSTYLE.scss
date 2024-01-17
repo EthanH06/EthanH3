@@ -1,0 +1,21 @@
+
+$primary-color: #3498db;
+
+body {
+  background-color: $primary-color;
+}
+sass input.scss output.css
+
+<html>
+
+<head>
+  <!--Meta data here -->
+
+  <link rel="stylesheet" href="output.css">
+
+  <title>Project Page</title>
+</head>
+<body>
+ <!--HTML stuff-->
+</body>
+</html>
